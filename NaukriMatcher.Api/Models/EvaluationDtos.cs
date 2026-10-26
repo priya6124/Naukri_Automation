@@ -20,7 +20,8 @@ public record CandidateCardDto(
     string NoticePeriod,
     string Location,
     string AnnualSalary,
-    string Snippet
+    string Snippet,
+    string? Company = ""
 );
 
 public record EvaluationResult(
